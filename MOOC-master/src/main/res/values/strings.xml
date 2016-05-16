@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">华农云课堂</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string-array name="dwslx_video">
+        <item>http://211.69.141.12:80/upload/d338206f-4e34-4cdb-a701-9ae4b78fac98.mp4</item>
+        <item>http://211.69.141.12:80/upload/716a9295-9047-4618-8f39-a6ad41166080.mp4</item>
+        <item>http://211.69.141.12:80/upload/233d1360-830b-4977-8c2f-ade42e415db5.mp4</item>
+        <item>http://211.69.141.12:80/upload/aa208733-53d7-4fd1-b9aa-9eafc5efd9c5.mp4</item>
+        <item>http://211.69.141.12:80/upload/0c08f770-815a-4d51-a7aa-165b3d29b1eb.mp4</item>
+
+    </string-array>
+
+    <string-array name="dwfzx_video">
+        <item>http://211.69.141.12/upload/7ac28b51-d3ff-429b-83bd-f2de10d4db66.asf</item>
+        <item>http://211.69.141.12/upload/ee7fd228-e7f4-4d5e-8e03-81eacce17ecd.asf</item>
+        <item>http://211.69.141.12:80/upload/749494d7-023f-4f8a-8961-5ce2fd38f8d5.asf</item>
+        <item>http://211.69.141.12:80/upload/4dbcb791-96e1-4dd4-b3bf-8ffc3ad7acd6.asf</item>
+    </string-array>
+    <string-array name="dwfzx_source">
+        <item>http://211.69.141.12/upload/e4e7a2e4-fbbb-4b91-bf51-c777833ada78.swf</item>
+        <item>http://211.69.141.12/upload/10e3c6ca-2c8a-4e5c-8b25-24287b723318.swf</item>
+        <item>http://211.69.141.12/upload/36e36fd0-ac65-4241-bb32-07effa0d49da.swf</item>
+        <item>http://211.69.141.12/upload/ef2c4ed5-2547-40f5-bcaa-858ffc05365f.swf</item>
+        <item>http://211.69.141.12:80/upload/0c8e9ceb-a4ba-42d4-8cdc-ca2fb9ec5aee.swf</item>
+        <item>http://211.69.141.12:80/upload/c770e98e-42bb-44e0-9143-4ba396d811ff.swf</item>
+        <item></item>
+    </string-array>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/resource_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_resource"
+        android:gravity="center"
+        android:text="下    载"
+        android:textColor="#0D47A1"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/resource_look"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/shape_resource_withoutradio"
+        android:gravity="center"
+        android:text="预    览"
+        android:textColor="#0D47A1"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/resource_collect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/shape_resource_bottom"
+        android:gravity="center"
+        android:text="收    藏"
+        android:textColor="#0D47A1"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/resource_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_resource_last"
+        android:gravity="center"
+        android:text="取    消"
+        android:textColor="#0D47A1"
+        android:textSize="25dp" />
+
+</LinearLayout>

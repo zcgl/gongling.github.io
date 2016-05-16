@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="#009688"
+    android:layout_height="150dp">
+    <ImageView
+        android:id="@+id/set"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:src="@mipmap/set"/>
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/head"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_below="@id/head"
+        android:text="登录"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+<View
+    android:background="#d8e0e8"
+    android:layout_width="match_parent"
+    android:layout_height="16dp"/>
+    <LinearLayout
+        android:id="@+id/admin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/admin"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:text="我的账号"/>
+        <ImageView
+            android:src="@mipmap/go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="220dp"/>
+    </LinearLayout>
+    <View
+        android:background="#d8e0e8"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"/>
+    <ListView
+        android:id="@+id/full"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fastScrollEnabled="false"/>
+</LinearLayout>

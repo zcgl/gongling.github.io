@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="65dp"
+        android:paddingRight="15dp"
+        android:paddingTop="20dp">
+
+
+        <TextView
+            android:id="@+id/tx_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试一"
+            android:textColor="#1a1a1a"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tx_action_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx_action"
+            android:layout_marginTop="10dp"
+            android:text="2015-07-12 20:34:34"
+            android:textColor="#8e8e8e"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tx_action_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="继续学习>"
+            android:textColor="#3dd1a5"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="20dp"
+        android:background="#EEEEEE" />
+</LinearLayout>

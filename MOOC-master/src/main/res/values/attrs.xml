@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="UnderLineLinearLayout">
+        <!--时间轴偏移值-->
+        <attr name="line_margin_side" format="dimension"/>
+        <!--时间轴动态调整值-->
+        <attr name="line_dynamic_dimen" format="dimension"/>
+        <!--线宽-->
+        <attr name="line_stroke_width" format="dimension"/>
+        <!--线的颜色-->
+        <attr name="line_color" format="color"/>
+        <!--点的大小-->
+        <attr name="point_size" format="dimension"/>
+        <!--点的颜色-->
+        <attr name="point_color" format="color"/>
+        <!--图标-->
+        <attr name="icon_src" format="reference"/>
+    </declare-styleable>
+
+</resources>
+
+
+

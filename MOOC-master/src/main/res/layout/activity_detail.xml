@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.feidian.ek.hzaumooc.Activity.DetailActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_bar_height"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll">
+
+            <ImageView
+                android:id="@+id/background_image"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:fitsSystemWindows="true"
+                android:src="@mipmap/school"
+                android:layout_height="match_parent"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/gray_shape"
+                android:layout_marginTop="150dp"
+                />
+
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+        <com.ogaclejapan.smarttablayout.SmartTabLayout
+            android:id="@+id/detail_tab"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:stl_indicatorInterpolation="linear"
+            app:stl_indicatorColor="@color/background_white_color"
+            app:stl_indicatorThickness="3dp"
+            app:stl_indicatorWidth="48dp"
+            app:stl_indicatorCornerRadius="2dp"
+            app:stl_underlineColor="#ffe5e5e5"
+            app:stl_underlineThickness="0dp"
+            app:stl_dividerThickness="0dp"
+            app:stl_defaultTabTextColor="#ffffff"
+            app:stl_defaultTabTextSize="16sp"
+            app:stl_distributeEvenly="true"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/detail_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+
+    
+</android.support.design.widget.CoordinatorLayout>
