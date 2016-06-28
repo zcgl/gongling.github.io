@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff0000"
+        android:orientation="vertical">
+
+
+    <WebView
+        android:id="@+id/myweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></WebView>
+
+    <TextView
+        android:id="@+id/myweb_bottom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/large_text" />
+
+    </LinearLayout>
+
+</ScrollView>

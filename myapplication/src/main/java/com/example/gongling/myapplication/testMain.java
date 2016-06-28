@@ -1,14 +1,23 @@
 package com.example.gongling.myapplication;
 
+import android.annotation.TargetApi;
+import android.text.TextUtils;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 
 /**
  * Created by gongling on 2016/5/9.
  */
 public class testMain {
-
+    @TargetApi(23)
     public static void main(String srgs[]){
         String stockDescInfo="运费xx,由配送并提供售后服务";
         int insertStart=stockDescInfo.indexOf("由配送并提供");
@@ -87,5 +96,53 @@ public class testMain {
                 System.out.print(dotValue);
             }
         }
+
+        HashMap<String,Object> pmArrivalData=new  HashMap<String,Object>();
+        pmArrivalData.put("code",3.0);
+        //0 成功 ，1 出错， 2 失败 3已订阅
+        if (pmArrivalData.get("code")!=null &&
+                (Integer.valueOf("0").equals(pmArrivalData.get("code"))
+        ||Double.valueOf("3").equals(pmArrivalData.get("code").toString()))) {
+                       // ||"3.0".equals(pmArrivalData.get("code").toString()))) {
+
+            System.out.println("设置成功");
+        } else {
+            System.out.println("设置失败");
+        }
+
+        List<String> codes=new ArrayList<String>();
+        codes.add("qwe");
+        codes.add("asd");
+        codes.add("zxc");
+        System.out.println(codes.toArray().toString());
+        System.out.println(codes.toString());
+        System.out.println(Arrays.asList(codes));
+        System.out.println(Arrays.asList("qwe","asd","zxc"));
+
+       String jsonStrs="{\"btns\":[{\"tabname\":\"我的抵用券\",\"url\":\"yhd://mycoupon\"}]}";
+
+        HashMap<String, String> mapParam = analysisParam(jsonStrs);
+        System.out.println(mapParam.get("btns"));
+        String listStr=mapParam.get("btns");
+        HashMap<String, String> mapParam2 = analysisParam(listStr);
+
+    }
+
+    static HashMap<String, String> analysisParam(String paramsJson) {
+        HashMap<String, String> mapParam = new HashMap<String, String>();
+        if (!TextUtils.isEmpty(paramsJson)) {
+            try {
+                JSONObject tparam = new JSONObject(paramsJson);
+                Iterator<?> objkey = tparam.keys();
+                while (objkey.hasNext()) {
+                    String jkey = objkey.next().toString();
+                    String value = tparam.getString(jkey);
+                    mapParam.put(jkey, value);
+                }
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }
+        return mapParam;
     }
 }

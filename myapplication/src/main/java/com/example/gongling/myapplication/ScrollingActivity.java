@@ -1,5 +1,6 @@
 package com.example.gongling.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -44,6 +45,8 @@ public class ScrollingActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent i=new Intent(ScrollingActivity.this, mywebAndProActivity.class);
+            startActivity(i);
             return true;
         }
         return super.onOptionsItemSelected(item);
