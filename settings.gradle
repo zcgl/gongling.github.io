@@ -1,5 +1,5 @@
-include ':pulltorefresh', ':myapplication', ':MyNotification', ':CrashlyticsDemo'
-include ':pulltorefreshexample'
+include ':pulltorefresh', ':pulltorefreshexample', ':SampleApp', ':ShortcutBadger'
+include ':myapplication', ':MyNotification', ':CrashlyticsDemo'
 include ':StaggeredGridView'
 include ':StickyListHeader'
 include ':StickyListHeaderSample'

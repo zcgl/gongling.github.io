@@ -117,15 +117,27 @@ public class testMain {
         System.out.println(codes.toArray().toString());
         System.out.println(codes.toString());
         System.out.println(Arrays.asList(codes));
-        System.out.println(Arrays.asList("qwe","asd","zxc"));
+        System.out.println(Arrays.asList("qwe", "asd", "zxc"));
 
        String jsonStrs="{\"btns\":[{\"tabname\":\"我的抵用券\",\"url\":\"yhd://mycoupon\"}]}";
 
-        HashMap<String, String> mapParam = analysisParam(jsonStrs);
+      /*  HashMap<String, String> mapParam = analysisParam(jsonStrs);
         System.out.println(mapParam.get("btns"));
         String listStr=mapParam.get("btns");
-        HashMap<String, String> mapParam2 = analysisParam(listStr);
+        HashMap<String, String> mapParam2 = analysisParam(listStr);*/
 
+TextUtils.isEmpty("");
+
+
+        List<String> ids=new ArrayList<>();
+        ids.add(1+"");
+        ids.add(2+"");
+        ids.add(223+"");
+        System.out.println(ids.toString());
+        System.out.println(ids.toString().length());
+        System.out.println(ids.toString().replace(" ", ""));
+        System.out.println(ids.toString().substring(1, ids.toString().length() - 1));
+        System.out.println(ids.toString().substring(1,ids.toString().length()-1).replace(" ", ""));
     }
 
     static HashMap<String, String> analysisParam(String paramsJson) {
