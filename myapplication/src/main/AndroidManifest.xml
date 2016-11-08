@@ -18,8 +18,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".mywebAndProActivity"/>
+                android:name=".mywebAndProActivity">
+        </activity>
+        <activity
+                android:name=".SurfaceActivity"
+                android:label="@string/title_activity_surface"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".page.TextViewBaseLineActivity"
+                android:label="@string/title_activity_text_view_base_line"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
 
     </application>
 

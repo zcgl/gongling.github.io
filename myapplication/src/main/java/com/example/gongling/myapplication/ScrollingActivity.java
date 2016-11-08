@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import com.example.gongling.myapplication.page.TextViewBaseLineActivity;
 
 public class ScrollingActivity extends AppCompatActivity {
 
@@ -47,6 +48,14 @@ public class ScrollingActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             Intent i=new Intent(ScrollingActivity.this, mywebAndProActivity.class);
             startActivity(i);
+            return true;
+        }
+        if (id == R.id.action_textview) {
+            TextViewBaseLineActivity.intentTo(this,"2");
+            return true;
+        }
+        if (id == R.id.action_surfaceview) {
+            SurfaceActivity.intentTo(this,"1");
             return true;
         }
         return super.onOptionsItemSelected(item);

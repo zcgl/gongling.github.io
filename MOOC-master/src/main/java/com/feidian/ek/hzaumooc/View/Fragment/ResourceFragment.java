@@ -18,23 +18,17 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
-
-import com.feidian.ek.hzaumooc.Activity.VideoActivity;
 import com.feidian.ek.hzaumooc.R;
-import com.feidian.ek.hzaumooc.View.Adapter.ListAdapter;
 import com.feidian.ek.hzaumooc.download.DowloadAcivity;
 import com.feidian.ek.hzaumooc.download.Download;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import 	android.os.Handler;
-import java.util.logging.LogRecord;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

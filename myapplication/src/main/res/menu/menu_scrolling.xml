@@ -3,8 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.gongling.myapplication.ScrollingActivity">
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+            android:id="@+id/action_settings"
+            android:orderInCategory="100"
+            android:title="@string/action_settings"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/action_textview"
+            android:orderInCategory="101"
+            android:title="@string/action_settings"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/action_surfaceview"
+            android:orderInCategory="102"
+            android:title="@string/action_settings"
+            app:showAsAction="never"/>
 </menu>
