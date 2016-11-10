@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/main_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                tools:context="com.example.gongling.myapplication.ormsql.ProductMainActivity">
+
+    <LinearLayout
+            android:id="@+id/pro_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#f39800">
+
+        <Button
+                android:id="@+id/pro_top_btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:text="分类管理"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:background="@null"
+                android:layout_weight="1"/>
+        <Button
+                android:id="@+id/pro_top_btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:text="查看清单"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/cat_tab_trip"
+            android:layout_width="100dp"
+            android:layout_below="@+id/pro_top"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <View  android:id="@+id/cat_tab_line"
+            android:layout_width="1px"
+          android:layout_height="match_parent"
+          android:layout_toRightOf="@+id/cat_tab_trip"
+          android:layout_below="@+id/pro_top"
+          android:background="#f39800"></View>
+    <com.example.gongling.myapplication.view.VerticalViewPager
+            android:id="@+id/pro_vierpager"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/pro_top"
+            android:layout_toRightOf="@+id/cat_tab_trip"
+            android:layout_height="match_parent">
+
+    </com.example.gongling.myapplication.view.VerticalViewPager>
+
+
+</RelativeLayout>

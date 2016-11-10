@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import com.example.gongling.myapplication.ormsql.ProductMainActivity;
 import com.example.gongling.myapplication.page.TextViewBaseLineActivity;
 
 public class ScrollingActivity extends AppCompatActivity {
@@ -56,6 +57,15 @@ public class ScrollingActivity extends AppCompatActivity {
         }
         if (id == R.id.action_surfaceview) {
             SurfaceActivity.intentTo(this,"1");
+            return true;
+        }
+
+        if (id == R.id.action_recycle) {
+            RecyclerViewActivity.intentTo(this);
+            return true;
+        }
+        if (id == R.id.action_product) {
+            ProductMainActivity.intentTo(this);
             return true;
         }
         return super.onOptionsItemSelected(item);

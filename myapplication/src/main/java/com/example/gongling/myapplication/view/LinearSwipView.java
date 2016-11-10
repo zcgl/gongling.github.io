@@ -1,4 +1,4 @@
-package com.example.gongling.myapplication.page;
+package com.example.gongling.myapplication.view;
 
 import android.content.Context;
 import android.graphics.Color;

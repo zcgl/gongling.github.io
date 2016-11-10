@@ -10,11 +10,23 @@
     <item
             android:id="@+id/action_textview"
             android:orderInCategory="101"
-            android:title="@string/action_settings"
+            android:title="@string/title_activity_text_view_base_line"
             app:showAsAction="never"/>
     <item
             android:id="@+id/action_surfaceview"
             android:orderInCategory="102"
-            android:title="@string/action_settings"
+            android:title="@string/title_activity_surface"
+            app:showAsAction="never"/>
+
+    <item
+            android:id="@+id/action_recycle"
+            android:orderInCategory="102"
+            android:title="@string/title_activity_list"
+            app:showAsAction="never"/>
+
+    <item
+            android:id="@+id/action_product"
+            android:orderInCategory="103"
+            android:title="@string/title_activity_product_main"
             app:showAsAction="never"/>
 </menu>

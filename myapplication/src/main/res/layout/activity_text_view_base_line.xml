@@ -17,7 +17,7 @@
     <View android:layout_width="match_parent"
           android:layout_height="10dp"/>
 
-    <com.example.gongling.myapplication.page.WrapTextSingleLineView
+    <com.example.gongling.myapplication.view.WrapTextSingleLineView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:background="#000000"
@@ -27,7 +27,7 @@
     <View android:layout_width="match_parent"
           android:layout_height="10dp"/>
 
-    <com.example.gongling.myapplication.page.WrapTextSingleLineView
+    <com.example.gongling.myapplication.view.WrapTextSingleLineView
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:background="#000000"
@@ -38,7 +38,7 @@
     <View android:layout_width="match_parent"
           android:layout_height="10dp"/>
 
-    <com.example.gongling.myapplication.page.WrapTextMutiLinesView
+    <com.example.gongling.myapplication.view.WrapTextMutiLinesView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#000000"
@@ -51,20 +51,20 @@
           android:layout_height="10dp"/>
 
 
-    <com.example.gongling.myapplication.page.WrapTextLinesView
+    <com.example.gongling.myapplication.view.WrapTextLinesView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#000000"
             android:textColor="#ffffff"
             android:text="我㎡是标题ing\n我㎡是标题ing"/>
 
-    <com.example.gongling.myapplication.page.LinearSwipView
+    <com.example.gongling.myapplication.view.LinearSwipView
             android:layout_width="match_parent"
             android:gravity="center"
             android:layout_height="50dp">
         <TextView android:layout_width="wrap_content"
                   android:text="收到过佛山打工 "
                   android:layout_height="wrap_content"/>
-    </com.example.gongling.myapplication.page.LinearSwipView>
+    </com.example.gongling.myapplication.view.LinearSwipView>
 
 </LinearLayout>

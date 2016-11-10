@@ -93,4 +93,8 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_surface">SurfaceActivity</string>
     <string name="title_activity_text_view_base_line">TextViewBaseLineActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_product_main">ProductMainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_product_manag">ProductManagActivity</string>
 </resources>

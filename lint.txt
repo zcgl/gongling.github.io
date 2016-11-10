@@ -1,0 +1,282 @@
+
+Scanning debug: .
+Scanning 1.1.5: .......
+Scanning 1.1.5 (Phase 2): ......
+Scanning debug: .
+Scanning 23.0.1: .....................
+Scanning debug: .
+Scanning release: .
+Scanning debug: .
+Scanning 23.0.1: .
+Scanning 1.6.0: ..
+Scanning debug: .
+Scanning 1.4: .
+Scanning debug: .
+Scanning 23.0.1: ..
+Scanning 24.1.1: .................................................................................................................................................................................................................................................................................................................................................................................................................................
+Scanning 1.0.1: .
+Scanning debug: .
+Scanning debug: .
+Scanning 1.1.4: .
+Scanning debug: .
+Scanning 23.0.1: .
+Scanning debug: .
+Scanning debug: .
+Scanning debug: .
+Scanning 23.0.1: ........................................................................................................................................................................................................................................................................................................................................................................................
+Scanning debug: .
+Scanning 23.4.0: .
+Scanning 2.5.5: .
+Scanning debug: .
+Scanning 1.6.0: .
+Scanning 23.0.1: ..
+Scanning 1.3.10: .
+Scanning 23.0.1: ........................................................................................................................................................................................................................................................................................................................................................................................
+Scanning debug: .
+Scanning debug: .
+Scanning 23.0.1: ..
+Scanning debug: .
+Scanning debug: .
+Scanning 24.1.1: .
+Scanning 1.0.1: .
+Scanning debug: .
+Scanning debug: .
+Scanning 24.1.1: .
+Scanning 1.4: ..........................
+Scanning 1.4 (Phase 2): .........................
+Scanning debug: .
+Scanning unspecified: ...................
+Scanning unspecified (Phase 2): ..................
+Scanning 23.0.1: .....................
+Scanning 1.3.6: .
+Scanning 24.1.1: .
+Scanning debug: .
+Scanning 2.3.8: .
+Scanning unspecified: .
+CrashlyticsDemo\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.1.4: Error: No .class files were found in project "1.1.4", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+MOOC-master\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5: Error: No .class files were found in project "1.1.5", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+CrashlyticsDemo\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.10: Error: No .class files were found in project "1.3.10", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+CrashlyticsDemo\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.6: Error: No .class files were found in project "1.3.6", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android-no-op\1.4: Error: No .class files were found in project "1.4", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4: Error: No .class files were found in project "1.4", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+MOOC-master\build\intermediates\exploded-aar\com.ogaclejapan.smarttablayout\library\1.6.0: Error: No .class files were found in project "1.6.0", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+MOOC-master\build\intermediates\exploded-aar\com.ogaclejapan.smarttablayout\utils-v4\1.6.0: Error: No .class files were found in project "1.6.0", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+CrashlyticsDemo\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.8: Error: No .class files were found in project "2.3.8", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+CrashlyticsDemo\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.5.5: Error: No .class files were found in project "2.5.5", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+StaggeredGridView: Error: "StaggeredGridView" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+StickyListHeader: Error: "StickyListHeader" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+StickyListHeaderSample: Error: "StickyListHeaderSample" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+aIDLClient\build\intermediates\manifest\androidTest\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+aIDLClient\build\intermediates\manifests\full\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+aIDLService\build\intermediates\manifest\androidTest\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+aIDLService\build\intermediates\manifests\full\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+apiDemos\build\intermediates\manifest\androidTest\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+apiDemos\build\intermediates\manifests\full\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+CrashlyticsDemo\build\intermediates\manifest\androidTest\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+CrashlyticsDemo\build\intermediates\manifests\full\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+leakcanary\build\intermediates\manifest\androidTest\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+leakcanary\build\intermediates\manifests\full\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+MOOC-master\build\intermediates\manifest\androidTest\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+MOOC-master\build\intermediates\manifests\full\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+myapplication\build\intermediates\manifest\androidTest\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+myapplication\build\intermediates\manifests\full\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+MyNotification\build\intermediates\manifest\androidTest\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+MyNotification\build\intermediates\manifests\full\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+SampleApp\build\intermediates\manifest\androidTest\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+SampleApp\build\intermediates\manifests\full\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+ShortcutBadger\build\intermediates\bundles\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+ShortcutBadger\build\intermediates\manifest\androidTest\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+twoDimCode\build\intermediates\manifest\androidTest\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+twoDimCode\build\intermediates\manifests\full\debug: Error: No .class files were found in project "debug", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+aIDLClient\src\main: Error: "main" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+aIDLService\src\main: Error: "main" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+apiDemos\src\main: Error: "main" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+CrashlyticsDemo\src\main: Error: "main" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+leakcanary\src\main: Error: "main" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+MOOC-master\src\main: Error: "main" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+myapplication\src\main: Error: "main" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+MyNotification\src\main: Error: "main" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+SampleApp\src\main: Error: "main" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+ShortcutBadger\src\main: Error: "main" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+twoDimCode\src\main: Error: "main" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+pulltorefresh: Error: "pulltorefresh" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+pulltorefreshexample: Error: "pulltorefreshexample" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+ShortcutBadger\build\intermediates\bundles\release: Error: No .class files were found in project "release", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified: Error: No .class files were found in project "unspecified", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+SampleApp\build\intermediates\exploded-aar\gongling.github.io\ShortcutBadger\unspecified: Error: No .class files were found in project "unspecified", so none of the classfile based checks could be run. Does the project need to be built first? [LintError]
+vitamio: Error: "vitamio" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+vitamio-sample: Error: "vitamio-sample" is a Gradle project. To correctly analyze Gradle projects, you should run "gradlew :lint" instead. [LintError]
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\drawable-hdpi-v4\ic_launcher.png: Warning: The resource R.drawable.ic_launcher appears to be unused [UnusedResources]
+MOOC-master\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\res\drawable\indicator_corner_bg.xml:2: Warning: The resource R.drawable.indicator_corner_bg appears to be unused [UnusedResources]
+<layer-list  xmlns:android="http://schemas.android.com/apk/res/android">
+^
+MOOC-master\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\res\layout\indicator_layout.xml:3: Warning: The resource R.layout.indicator_layout appears to be unused [UnusedResources]
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\layout\leak_canary_display_leak.xml:17: Warning: The resource R.layout.leak_canary_display_leak appears to be unused [UnusedResources]
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\layout\leak_canary_heap_dump_toast.xml:17: Warning: The resource R.layout.leak_canary_heap_dump_toast appears to be unused [UnusedResources]
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\layout\leak_canary_leak_row.xml:17: Warning: The resource R.layout.leak_canary_leak_row appears to be unused [UnusedResources]
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\drawable-hdpi-v11\leak_canary_notification.png: Warning: The resource R.drawable.leak_canary_notification appears to be unused [UnusedResources]
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\layout\leak_canary_ref_row.xml:17: Warning: The resource R.layout.leak_canary_ref_row appears to be unused [UnusedResources]
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\layout\leak_canary_ref_top_row.xml:17: Warning: The resource R.layout.leak_canary_ref_top_row appears to be unused [UnusedResources]
+<TextView
+^
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\drawable\leak_canary_toast_background.xml:2: Warning: The resource R.drawable.leak_canary_toast_background appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+^
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\layout\mediacontroller.xml:2: Warning: The resource R.layout.mediacontroller appears to be unused [UnusedResources]
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\drawable\mediacontroller_button.xml:2: Warning: The resource R.drawable.mediacontroller_button appears to be unused [UnusedResources]
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+^
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\drawable-xhdpi-v4\mediacontroller_pause.png: Warning: The resource R.drawable.mediacontroller_pause appears to be unused [UnusedResources]
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\drawable-xhdpi-v4\mediacontroller_play.png: Warning: The resource R.drawable.mediacontroller_play appears to be unused [UnusedResources]
+MOOC-master\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\res\layout\render_type_default.xml:3: Warning: The resource R.layout.render_type_default appears to be unused [UnusedResources]
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+MOOC-master\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\res\layout\render_type_text.xml:3: Warning: The resource R.layout.render_type_text appears to be unused [UnusedResources]
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\drawable-xhdpi-v4\scrubber_track_holo_dark.9.png: Warning: The resource R.drawable.scrubber_track_holo_dark appears to be unused [UnusedResources]
+MOOC-master\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\res\layout\slider_layout.xml:3: Warning: The resource R.layout.slider_layout appears to be unused [UnusedResources]
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:3: Warning: The resource R.color.mediacontroller_bg appears to be unused [UnusedResources]
+    <color name="mediacontroller_bg">#99000000</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:3: Warning: The resource R.integer.leak_canary_max_stored_leaks appears to be unused [UnusedResources]
+    <integer name="leak_canary_max_stored_leaks">7</integer>
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:4: Warning: The resource R.color.mediacontroller_bg_pressed appears to be unused [UnusedResources]
+    <color name="mediacontroller_bg_pressed">#ff53c1bd</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:4: Warning: The resource R.integer.leak_canary_watch_delay_millis appears to be unused [UnusedResources]
+    <integer name="leak_canary_watch_delay_millis">5000</integer>
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:5: Warning: The resource R.color.transparent appears to be unused [UnusedResources]
+    <color name="transparent">#00000000</color>
+           ~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:5: Warning: The resource R.string.leak_canary_analysis_failed appears to be unused [UnusedResources]
+    <string name="leak_canary_analysis_failed">Leak analysis failed</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:6: Warning: The resource R.string.VideoView_error_button appears to be unused [UnusedResources]
+    <string name="VideoView_error_button">OK</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:6: Warning: The resource R.string.leak_canary_class_has_leaked appears to be unused [UnusedResources]
+    <string name="leak_canary_class_has_leaked">%1$s leaked %2$s</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:7: Warning: The resource R.string.VideoView_error_text_invalid_progressive_playback appears to be unused [UnusedResources]
+    <string name="VideoView_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:7: Warning: The resource R.string.leak_canary_could_not_save_text appears to be unused [UnusedResources]
+    <string name="leak_canary_could_not_save_text">LeakCanary was unable to save the analysis result.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\res\values\values.xml:8: Warning: The resource R.string.app_name appears to be unused [UnusedResources]
+    <string name="app_name">Slider</string>
+            ~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:8: Warning: The resource R.string.leak_canary_could_not_save_title appears to be unused [UnusedResources]
+    <string name="leak_canary_could_not_save_title">Could not save result.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:9: Warning: The resource R.string.leak_canary_delete appears to be unused [UnusedResources]
+    <string name="leak_canary_delete">Delete</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:10: Warning: The resource R.string.VideoView_error_text_unknown appears to be unused [UnusedResources]
+    <string name="VideoView_error_text_unknown">Sorry, this video cannot be played.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:10: Warning: The resource R.string.leak_canary_delete_all appears to be unused [UnusedResources]
+    <string name="leak_canary_delete_all">Delete all</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:11: Warning: The resource R.string.VideoView_error_title appears to be unused [UnusedResources]
+    <string name="VideoView_error_title">Cannot play video</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\res\values\values.xml:11: Warning: The resource R.style.AndroidImageSlider_Attractive_Rect_Blue appears to be unused [UnusedResources]
+    <style name="AndroidImageSlider_Attractive_Rect_Blue">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:12: Warning: The resource R.string.leak_canary_excluded_row appears to be unused [UnusedResources]
+    <string name="leak_canary_excluded_row">[Excluded] %s</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:12: Warning: The resource R.string.mediacontroller_play_pause appears to be unused [UnusedResources]
+    <string name="mediacontroller_play_pause">Play/Pause</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:13: Warning: The resource R.string.leak_canary_failure_report appears to be unused [UnusedResources]
+    <string name="leak_canary_failure_report">"Please report this failure to http://github.com/square/leakcanary\n"</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:13: Warning: The resource R.string.permission_group_tools_description appears to be unused [UnusedResources]
+    <string name="permission_group_tools_description">Access Vitamio package and resources.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:14: Warning: The resource R.string.leak_canary_leak_excluded appears to be unused [UnusedResources]
+    <string name="leak_canary_leak_excluded">[Excluded] %1$s leaked %2$s</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:14: Warning: The resource R.string.permission_group_tools_label appears to be unused [UnusedResources]
+    <string name="permission_group_tools_label">Vitamio tools</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:15: Warning: The resource R.string.leak_canary_leak_list_title appears to be unused [UnusedResources]
+    <string name="leak_canary_leak_list_title">Leaks in %s</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:15: Warning: The resource R.string.permission_receive_messages_description appears to be unused [UnusedResources]
+    <string name="permission_receive_messages_description">Receive all broadcasts from Vitamio service.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:16: Warning: The resource R.string.leak_canary_no_leak_text appears to be unused [UnusedResources]
+    <string name="leak_canary_no_leak_text">The GC was being lazy.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:16: Warning: The resource R.string.permission_receive_messages_label appears to be unused [UnusedResources]
+    <string name="permission_receive_messages_label">Receive Vitamio messages</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:17: Warning: The resource R.string.leak_canary_no_leak_title appears to be unused [UnusedResources]
+    <string name="leak_canary_no_leak_title">No leak found</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:17: Warning: The resource R.string.permission_write_providers_description appears to be unused [UnusedResources]
+    <string name="permission_write_providers_description">Delete, update or create new items in Vitamio providers.
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:18: Warning: The resource R.string.leak_canary_notification_message appears to be unused [UnusedResources]
+    <string name="leak_canary_notification_message">Click for more details</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:19: Warning: The resource R.string.leak_canary_permission_not_granted appears to be unused [UnusedResources]
+    <string name="leak_canary_permission_not_granted">Please grant external storage permission, otherwise memory leaks will not be detected.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:19: Warning: The resource R.string.permission_write_providers_label appears to be unused [UnusedResources]
+    <string name="permission_write_providers_label">Write Vitamio providers</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:20: Warning: The resource R.string.leak_canary_permission_notification_text appears to be unused [UnusedResources]
+    <string name="leak_canary_permission_notification_text">Click to enable storage permission for %s.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:20: Warning: The resource R.string.vitamio_init_decoders appears to be unused [UnusedResources]
+    <string name="vitamio_init_decoders">Initializing decoders¡­</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:21: Warning: The resource R.string.leak_canary_permission_notification_title appears to be unused [UnusedResources]
+    <string name="leak_canary_permission_notification_title">Leak detected, need permission</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:21: Warning: The resource R.string.vitamio_library_app_name appears to be unused [UnusedResources]
+    <string name="vitamio_library_app_name">VitamioLibrary</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:22: Warning: The resource R.string.leak_canary_share_heap_dump appears to be unused [UnusedResources]
+    <string name="leak_canary_share_heap_dump">Share heap dump</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:23: Warning: The resource R.string.leak_canary_share_leak appears to be unused [UnusedResources]
+    <string name="leak_canary_share_leak">Share info</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:24: Warning: The resource R.string.leak_canary_share_with appears to be unused [UnusedResources]
+    <string name="leak_canary_share_with">Share with¡­</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+leakcanary\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4\res\values\values.xml:26: Warning: The resource R.string.leak_canary_toast_heap_dump appears to be unused [UnusedResources]
+    <string name="leak_canary_toast_heap_dump">Dumping memory, app will freeze. Brrrr.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\res\values\values.xml:30: Warning: The resource R.style.AndroidImageSlider_Corner_Oval_Orange appears to be unused [UnusedResources]
+    <style name="AndroidImageSlider_Corner_Oval_Orange">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\gongling.github.io\vitamio\unspecified\res\values\values.xml:32: Warning: The resource R.style.MediaController_Text appears to be unused [UnusedResources]
+    <style name="MediaController_Text">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOOC-master\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\res\values\values.xml:50: Warning: The resource R.style.AndroidImageSlider_Magnifier_Oval_Black appears to be unused [UnusedResources]
+    <style name="AndroidImageSlider_Magnifier_Oval_Black">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+53 errors, 61 warnings

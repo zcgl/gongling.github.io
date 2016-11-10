@@ -2,7 +2,7 @@
  * @author Jerry
  * @time 2015-12-29 上午10:14:34
  */
-package com.example.gongling.myapplication.page;
+package com.example.gongling.myapplication.view;
 
 import android.content.Context;
 import android.graphics.Canvas;

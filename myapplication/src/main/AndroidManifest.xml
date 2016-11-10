@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gongling.myapplication">
+          package="com.example.gongling.myapplication">
 
     <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity
-            android:name=".ScrollingActivity"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".ScrollingActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
-        <activity
-                android:name=".mywebAndProActivity">
+        <activity android:name=".mywebAndProActivity">
         </activity>
         <activity
                 android:name=".SurfaceActivity"
@@ -32,7 +30,18 @@
                 android:label="@string/title_activity_text_view_base_line"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
-
+        <activity
+                android:name=".RecyclerViewActivity"
+                android:label="@string/title_activity_list"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".ormsql.ProductMainActivity"
+                android:label="@string/title_activity_product_main"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".ormsql.ProductManageActivity">
+        </activity>
     </application>
 
 </manifest>
