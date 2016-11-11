@@ -40,7 +40,8 @@
                 android:label="@string/title_activity_product_main"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".ormsql.ProductManageActivity">
+        <activity android:name=".ormsql.ProductManageActivity"
+                  android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>
 

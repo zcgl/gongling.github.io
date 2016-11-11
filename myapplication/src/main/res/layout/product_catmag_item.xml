@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/cat_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/cat_manager_bg">
+    <TextView
+            android:id="@+id/cat_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:maxEms="6"
+            android:text="洗衣粉洗衣粉洗衣粉"/>
+
+    <View
+            android:id="@+id/cat_line"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:background="#f39800"/>
+
+</RelativeLayout>
