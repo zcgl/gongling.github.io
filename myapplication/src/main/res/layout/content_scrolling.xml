@@ -8,6 +8,10 @@
     tools:context="com.example.gongling.myapplication.ScrollingActivity"
     tools:showIn="@layout/activity_scrolling">
 
+    <com.example.gongling.myapplication.myview.circleTimeView
+        android:layout_width="500dp"
+        android:layout_height="600dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
