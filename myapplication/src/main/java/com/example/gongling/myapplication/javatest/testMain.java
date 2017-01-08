@@ -1,4 +1,4 @@
-package com.example.gongling.myapplication;
+package com.example.gongling.myapplication.javatest;
 
 import android.annotation.TargetApi;
 import android.text.TextUtils;

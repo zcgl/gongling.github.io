@@ -1,4 +1,4 @@
-package com.example.gongling.myapplication;
+package com.example.gongling.myapplication.javatest;
 
 /**
  * Created by gongling on 2016/6/4.

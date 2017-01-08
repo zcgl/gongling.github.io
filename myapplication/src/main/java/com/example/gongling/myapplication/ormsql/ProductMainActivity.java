@@ -22,6 +22,7 @@ import com.example.gongling.myapplication.ormsql.db.Product;
 import com.example.gongling.myapplication.ormsql.db.ProductCategory;
 import com.example.gongling.myapplication.view.CommonPagerAdapter;
 import com.example.gongling.myapplication.view.VerticalViewPager;
+import com.example.gongling.myapplication.wxapi.WXApi;
 
 import java.util.List;
 
@@ -59,6 +60,15 @@ public class ProductMainActivity extends AppCompatActivity implements CatAdapter
             }
         });
 
+        listProBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(ProductMainActivity.this,"wx start",Toast.LENGTH_SHORT).show();
+                WXApi.getIWXAPI(ProductMainActivity.this);
+                WXApi.getLoginAPIParams();
+
+            }
+        });
 
 
         catListView = (RecyclerView) findViewById(R.id.cat_tab_trip);
