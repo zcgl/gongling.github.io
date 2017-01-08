@@ -1,6 +1,7 @@
 package com.example.gongling.myapplication.wxapi;
 
 import android.content.Context;
+import android.content.Intent;
 
 import com.tencent.mm.sdk.modelmsg.SendAuth;
 import com.tencent.mm.sdk.openapi.IWXAPI;
@@ -21,6 +22,7 @@ public class WXApi {
         }
         return wXApi;
     }
+
 
     public static SendAuth.Req getLoginAPIParams() {
         SendAuth.Req req = new SendAuth.Req();

@@ -23,6 +23,8 @@ import com.example.gongling.myapplication.ormsql.db.ProductCategory;
 import com.example.gongling.myapplication.view.CommonPagerAdapter;
 import com.example.gongling.myapplication.view.VerticalViewPager;
 import com.example.gongling.myapplication.wxapi.WXApi;
+import com.example.gongling.myapplication.wxapi.WXEntryActivity;
+import com.tencent.mm.sdk.openapi.IWXAPI;
 
 import java.util.List;
 
@@ -63,9 +65,12 @@ public class ProductMainActivity extends AppCompatActivity implements CatAdapter
         listProBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(ProductMainActivity.this,"wx start",Toast.LENGTH_SHORT).show();
-                WXApi.getIWXAPI(ProductMainActivity.this);
+               /* Toast.makeText(ProductMainActivity.this,"wx start",Toast.LENGTH_SHORT).show();
+                IWXAPI api=WXApi.getIWXAPI(ProductMainActivity.this);
                 WXApi.getLoginAPIParams();
+               // api.handleIntent(getIntent(), WXEntryActivity.class);*/
+                Intent i=new Intent(ProductMainActivity.this,WXEntryActivity.class);
+                startActivity(i);
 
             }
         });
